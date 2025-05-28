@@ -11,4 +11,4 @@ Updates here will include
 - Auto-equip the honey mask when converting the bag
 - Auto farm new account 
 
-#All code is open to be read and revised if you find any errors, join my discord and let me know https://discord.gg/dHUM2ejQGY
+# All code is open to be read and revised if you find any errors, join my discord and let me know https://discord.gg/dHUM2ejQGY
