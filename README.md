@@ -1,6 +1,6 @@
 # BSS-Adventure
 
-> ⚠️ Disclaimer: 90 %+ of all scripts are based on or copied from NatroMacro.
+> ⚠️ Disclaimer: 95 %+ of all scripts are based on or copied from NatroMacro.
 
 This project was created because NatroMacro does not update fast enough, and it lacks some more useful features I wanted to include. BSS-Adventure aims to deliver quicker updates and add additional functionality for an enhanced experience.
 
