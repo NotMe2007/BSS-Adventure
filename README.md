@@ -4,6 +4,7 @@
 
 All contributions are welcome (as you can see, I'm doing it in Python, Ruff coding, as I am not that good, mainly focusing on the template, it's easier to add, fix, and continue building) 
 If you have some friends who know a bit of code and have some ideas about how stuff works, do what u can, send code and add:D
+---
 This project was created because NatroMacro does not update fast enough, and it lacks some more useful features I wanted to include. BSS-Adventure aims to deliver quicker updates and add additional functionality for an enhanced experience.
 
 Updates here will include
