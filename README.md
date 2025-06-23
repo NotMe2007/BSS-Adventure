@@ -12,3 +12,4 @@ Updates here will include
 - Auto farm a new account 
 
 # All code is open to be read and revised if you find any errors, join my discord and let me know https://discord.gg/dHUM2ejQGY
+Not yet ready for use
