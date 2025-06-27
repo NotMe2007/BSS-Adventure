@@ -1357,6 +1357,10 @@ BlackBear = { # Story quests
         [1, "Collect", "White"],
         [2, "Collect", "Red"],
         [3, "Collect", "Blue"],
+
+# congrats you got a diamond egg
+
+
     ],
     "High Altitude": [
         [1, "Collect", "Clover"],
@@ -1365,7 +1369,74 @@ BlackBear = { # Story quests
     "Blissfully Blue": [
         [1, "Collect", "Blue Flower"],
         [2, "Collect", "Pineapple"],
+        [3, "Collect", "Blue"],
     ],
+    "Rouge Round-up": [
+        [1, "Collect", "Red"],
+        [2, "Collect", "Rose"],
+        [3, "Collect", "Strawberry"],
+        [4, "Collect", "Cactus"],
+    ],
+    "White As Snow": [
+        [1, "Collect", "White"],
+        [2, "Collect", "Pineapple"],
+        [3, "Collect", "Spider"],
+        [4, "Collect", "Dandelion"]
+    ],
+    "Solo On The Stump": [
+        [1, "Collect", "Stump"],
+    ],
+    "Colorful Craving": [
+        [1, "Collect", "Red"],
+        [2, "Collect", "Blue"],
+        [3, "Collect", "Pine Tree"],
+        [4, "Collect", "Mushroom"]
+    ],
+    "Pumpkins, Please!": [
+        [1, "Collect", "Pumpkin"],
+    ]
+    "Smorgasbord": [
+        [1, "Collect", "Sunflower"],
+        [2, "Collect", "Clover"],
+        [3, "Collect", "Bamboo"],
+        [4, "Collect", "Pine apple"],
+        [5, "Collect", "Cactus"],
+        [6, "Collect", "Rose"],
+        [7, "Collect", "Mountain Top"]
+    ],
+    "Pollen Fetcher 5": [
+        [1, "Collect", "Pollen"]
+    ],
+    "White Clover Redux": [
+        [1, "Collect", "White"],
+        [2, "Collect", "Clover"
+    ],
+    "Strawberry Field Forever"  : [
+        [1, "Collect", "Strawberry"],
+    ],
+    "Tasting The Sky": [
+        [1, "Collect", "Blue"],
+        [2, "Collect", "Mountain Top"],
+        [3, "Collect", "Sunflower"]
+    ],
+    "Whispy and Crispy": [
+        [1, "Collect", "Cactus"],
+        [2, "Collect", "Dandelion"],
+    ],
+    "Walk Through The Woods": [
+        [1, "Collect", "Pine Tree"],
+        [2, "Collect", "Bamboo"],
+    ],
+    "Get Red-y": [
+        [1, "Collect", "Red"],
+        [2, "Collect", "Clover"],
+        [3, "Collect", "Stump"],
+    ],
+
+###########################################################################
+#new quests comming soon
+###########################################################################
+
 
 
 #################################
