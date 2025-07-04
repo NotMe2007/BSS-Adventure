@@ -1241,9 +1241,6 @@ BlackBear = { # Story quests
         [2, "Collect", "Blue"],
         [3, "Collect", "White"]
     ],
-
-    #congrats you got Silver Egg
-
     "Bamboo Boogie": [
         [1, "Collect", "Bamboo"]
     ],
@@ -1277,9 +1274,6 @@ BlackBear = { # Story quests
         [1, "Collect", "Red"],
         [2, "Collect", "Blue"]
     ],
-
-    #congrats you got a golden egg
-
     "Colorless Collection" : [
         [1, "Collect", "White"]
     ],
@@ -1297,12 +1291,12 @@ BlackBear = { # Story quests
     "Lucky Landscaping": [
         [1, "Collect", "Clover"],
     ],
-    "Azure Adventure": {
-        [1, "Collect", "Blue"],
-    },
+    "Azure Adventure": [
+        [1, "Collect", "Blue Flower"],
+    ],
     "Pink Pineapples": [
         [1, "Collect", "Pineapple"],
-        [2, "Collect", "Red"]
+        [2, "Collect", "Red"],
     ],
     "Blue Mushrooms": [
         [1, "Collect", "Blue"],
@@ -1357,10 +1351,6 @@ BlackBear = { # Story quests
         [1, "Collect", "White"],
         [2, "Collect", "Red"],
         [3, "Collect", "Blue"],
-
-# congrats you got a diamond egg
-
-
     ],
     "High Altitude": [
         [1, "Collect", "Clover"],
@@ -1394,12 +1384,12 @@ BlackBear = { # Story quests
     ],
     "Pumpkins, Please!": [
         [1, "Collect", "Pumpkin"],
-    ]
+    ],
     "Smorgasbord": [
         [1, "Collect", "Sunflower"],
         [2, "Collect", "Clover"],
         [3, "Collect", "Bamboo"],
-        [4, "Collect", "Pine apple"],
+        [4, "Collect", "Pineapple"],
         [5, "Collect", "Cactus"],
         [6, "Collect", "Rose"],
         [7, "Collect", "Mountain Top"]
@@ -1409,7 +1399,7 @@ BlackBear = { # Story quests
     ],
     "White Clover Redux": [
         [1, "Collect", "White"],
-        [2, "Collect", "Clover"
+        [2, "Collect", "Clover"]
     ],
     "Strawberry Field Forever"  : [
         [1, "Collect", "Strawberry"],
@@ -1432,17 +1422,6 @@ BlackBear = { # Story quests
         [2, "Collect", "Clover"],
         [3, "Collect", "Stump"],
     ],
-
-###########################################################################
-#new quests comming soon
-###########################################################################
-
-
-
-#################################
-##loop quests below
-#################################
-
     "Just White": [
         [1, "Collect", "White"]
     ],
