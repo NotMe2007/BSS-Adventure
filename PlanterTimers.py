@@ -66,6 +66,7 @@ def duration_from_seconds(seconds, format_str):
         result += f"{secs}s"
     return result.strip()
 
+# Get current Unix timestamp
 def now_unix():
     return int(time.time())
 
@@ -134,6 +135,7 @@ def reset_planter_timer(i):
     if planter_name != "None":
         update_config("Planters", f"PlanterHarvestTime{i+1}", now_unix() - 1)
 
+# Function to set planter timer with delta
 def set_planter_timer(i, delta):
     planter_name = config.get("Planters", f"PlanterName{i+1}", fallback="None")
     if planter_name != "None":
@@ -143,6 +145,7 @@ def set_planter_timer(i, delta):
         est_percent = min(max((new_time - now_unix()) // 864, 0), 100)
         update_config("Planters", f"PlanterEstPercent{i+1}", est_percent)
 
+# Function to set planter data
 def set_planter_data(i):
     planter_name = config.get("Planters", f"PlanterName{i+1}", fallback="None")
     if planter_name == "None":
@@ -158,6 +161,7 @@ def set_planter_data(i):
         update_config("Planters", f"PlanterHarvestNow{i+1}", 0)
         update_config("Planters", f"MPlanterSmoking{i+1}", 0)
 
+# Create buttons for each planter
 for i in range(3):
     tk.Button(root, text="Ready", command=lambda i=i: reset_planter_timer(i)).place(x=1 + i * 86, y=76, width=42, height=15)
     tk.Button(root, text="Add", command=lambda i=i: set_planter_data(i)).place(x=43 + i * 86, y=76, width=42, height=15)
@@ -173,6 +177,7 @@ for i in range(3):
     blender_timers[i].place(x=2 + i * 86, y=110, width=82, height=20)
     blender_amounts[i].place(x=4 + i * 85, y=123, width=80, height=20)
 
+# Function to reset blender timer
 def reset_blender_timer(i):
     blender_item = config.get("Blender", f"BlenderItem{i+1}", fallback="None")
     if blender_item != "None":
@@ -181,6 +186,7 @@ def reset_blender_timer(i):
         update_config("Blender", f"BlenderRot", i + 1)
         update_config("Blender", f"BlenderEnd", 1)
 
+# Function to set blender data
 def set_blender_amount(i, delta):
     blender_item = config.get("Blender", f"BlenderItem{i+1}", fallback="None")
     if blender_item != "None":
@@ -192,6 +198,7 @@ def set_blender_amount(i, delta):
         update_config("Blender", f"BlenderAmount{i+1}", amount)
         blender_amounts[i].config(text=f"({config.get('Blender', f'BlenderCount{i+1}', fallback=0)}/{amount}) [{'∞' if config.get('Blender', f'BlenderIndex{i+1}', fallback='1') == 'Infinite' else config.get('Blender', f'BlenderIndex{i+1}', fallback='1')}]")
 
+# Function to set blender data
 for i in range(3):
     tk.Button(root, text="Ready", command=lambda i=i: reset_blender_timer(i)).place(x=1 + i * 86, y=184, width=42, height=15)
     tk.Button(root, text="Add", command=lambda i=i: set_blender_data(i)).place(x=43 + i * 86, y=184, width=42, height=15)
@@ -207,12 +214,14 @@ for i in range(2):
     shrine_timers[i].place(x=280 + i * 115, y=110, width=82, height=20)
     shrine_amounts[i].place(x=282 + i * 114, y=123, width=80, height=20)
 
+# Function to reset shrine timer
 def reset_shrine_timer(i):
     shrine_item = config.get("Shrine", f"ShrineItem{i+1}", fallback="None")
     if shrine_item != "None":
         update_config("Shrine", "LastShrine", 0)
         update_config("Shrine", f"ShrineRot", i + 1)
 
+# Function to set shrine data
 def set_shrine_amount(i, delta):
     shrine_item = config.get("Shrine", f"ShrineItem{i+1}", fallback="None")
     if shrine_item != "None":
@@ -224,6 +233,7 @@ def set_shrine_amount(i, delta):
         update_config("Shrine", f"ShrineAmount{i+1}", amount)
         shrine_amounts[i].config(text=f"({amount}) [{'∞' if config.get('Shrine', f'ShrineIndex{i+1}', fallback='1') == 'Infinite' else config.get('Shrine', f'ShrineIndex{i+1}', fallback='1')}]")
 
+# Function to set shrine data
 for i in range(2):
     tk.Button(root, text="Ready", command=lambda i=i: reset_shrine_timer(i)).place(x=279 + i * 115, y=184, width=42, height=15)
     tk.Button(root, text="Add", command=lambda i=i: set_shrine_data(i)).place(x=321 + i * 114, y=184, width=42, height=15)
@@ -309,7 +319,7 @@ def update_gui():
     stats_values[1].config(text=config.get("Status", "SessionTotalHoney", fallback="0"))
     day_or_night.config(text=f"{config.get('Planters', 'dayOrNight', fallback='Day')} Detected")
     # Status from another window (simplified)
-    status_value.config(text="unknown")  # Replace with actual logic if needed
+    status_value.config(text="unknown")
 
     root.after(1000, update_gui)
 
