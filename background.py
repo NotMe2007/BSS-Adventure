@@ -6,15 +6,12 @@ import pyautogui
 import win32gui
 import win32con
 import time
-import os
 import sys
+import ctypes
 from PIL import ImageGrab
 import configparser
-import ctypes
-from ctypes.wintypes import HWND, UINT, LPARAM
-
-# Check if script is run with arguments
-if not sys.argv[1:]:
+from ctypes.wintypes import HWND, UINT, LPARAM  
+if len(sys.argv) == 1:
     print("This script needs to be run by Natro Macro! You are not supposed to run it manually.")
     sys.exit()
 
@@ -53,15 +50,27 @@ def get_roblox_window():
         return hwnd, rect[0], rect[1], rect[2] - rect[0], rect[3] - rect[1]
     return None, 0, 0, 0, 0
 
+import threading
+
+config_lock = threading.Lock()
+
 def update_config(section, key, value):
-    if not config.has_section(section):
-        config.add_section(section)
-    config.set(section, key, str(value))
-    with open("settings/nm_config.ini", "w") as f:
-        config.write(f)
+    with config_lock:
+        config.read("settings/nm_config.ini")
+        if not config.has_section(section):
+            config.add_section(section)
+        config.set(section, key, str(value))
+        with open("settings/nm_config.ini", "w") as f:
+            config.write(f)
 
 # Message passing
 class COPYDATASTRUCT(ctypes.Structure):
+    """
+    Structure used for sending data between Windows applications using WM_COPYDATA.
+    dwData: user-defined data to be passed to the receiving application.
+    cbData: size of the data in bytes.
+    lpData: pointer to data to be passed.
+    """
     _fields_ = [("dwData", ctypes.c_ulong),
                 ("cbData", ctypes.c_ulong),
                 ("lpData", ctypes.c_void_p)]
@@ -384,30 +393,12 @@ def wndProc(hwnd, msg, wParam, lParam):
         nm_sendHeartbeat()
     return win32gui.DefWindowProc(hwnd, msg, wParam, lParam)
 
-# Create hidden window
-wc = win32gui.WNDCLASS()
-wc.lpfnWndProc = wndProc
-wc.lpszClassName = "NatroBackgroundClass"
-wc.hInstance = win32gui.GetModuleHandle(None)
-class_atom = win32gui.RegisterClass(wc)
-
-hwnd = win32gui.CreateWindow(
-    class_atom,
-    "Natro Background",
-    0,
-    0, 0, 0, 0,
-    0, 0,
-    wc.hInstance,
-    None
-)
-win32gui.ShowWindow(hwnd, win32con.SW_HIDE)
-win32gui.UpdateWindow(hwnd)
-
 # Main loop
 while True:
     roblox_hwnd, windowX, windowY, windowWidth, windowHeight = get_roblox_window()
     if roblox_hwnd:
-        offsetY = 0  # Placeholder: adjust based on Roblox.ahk logic if needed
+        # offsetY is used to adjust for any vertical offset in the Roblox window UI; set this based on your Roblox.ahk logic if needed.
+        offsetY = 0
         nm_deathCheck()
         nm_guidCheck()
         nm_popStarCheck()
@@ -417,4 +408,5 @@ while True:
         nm_dailyReconnect()
         nm_EmergencyBalloon()
     win32gui.PumpWaitingMessages()
-    time.sleep(1)
+    win32gui.PumpWaitingMessages()
+    time.sleep(0.1)
