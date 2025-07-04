@@ -58,7 +58,7 @@ def send_wm_copydata(hwnd, string, wparam=0):
 def is_roblox_running():
     """Check if Roblox processes are running."""
     for proc in psutil.process_iter(['name']):
-        if proc.info['name'] in ['RobloxPlayerBeta.exe', 'ApplicationFrameHost.exe']:
+        if proc.info['name'] in ['RobloxPlayerBeta.exe', 'ApplicationFrameHost.exe', 'RobloxPlayer.exe']:
             return True
     return False
 
@@ -162,32 +162,7 @@ def wndProc(hwnd, msg, wParam, lParam):
 
     return win32gui.DefWindowProc(hwnd, msg, wParam, lParam)
 
-# Set up the hidden window
-wc = win32gui.WNDCLASS()
-wc.lpfnWndProc = wndProc
-wc.lpszClassName = "NatroWatchdogClass"
-wc.hInstance = win32gui.GetModuleHandle(None)
-class_atom = win32gui.RegisterClass(wc)
-
-hwnd = win32gui.CreateWindow(
-    class_atom,
-    "Natro Watchdog",
-    0,
-    0, 0, 0, 0,
-    0, 0,
-    wc.hInstance,
-    None
-)
-win32gui.ShowWindow(hwnd, win32con.SW_HIDE)
-win32gui.UpdateWindow(hwnd)
-
-# Set a timer to trigger every 5000ms (5 seconds)
-win32gui.SetTimer(hwnd, 1, 5000, None)
-
 # Main message loop
 while True:
-    ret, msg = win32gui.GetMessage(hwnd, 0, 0)
-    if ret == 0:  # WM_QUIT
+    if wndProc == 0:  # WM_QUIT
         break
-    win32gui.TranslateMessage(msg)
-    win32gui.DispatchMessage(msg)
