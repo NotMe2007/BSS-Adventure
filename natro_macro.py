@@ -1129,49 +1129,49 @@ QuestBarInset = 16
 
 PolarBear = {
     "Aromatic Pie": [
-        [3, "Kill", "Mantis"],
-        [4, "Kill", "Ladybugs"],
-        [1, "Collect", "Rose"],
-        [2, "Collect", "Pine Tree"]
+        [1, "Kill", "Mantis"],
+        [2, "Kill", "Ladybugs"],
+        [3, "Collect", "Rose"],
+        [4, "Collect", "Pine Tree"],
     ],
     "Beetle Brew": [
-        [3, "Kill", "Ladybugs"],
-        [4, "Kill", "RhinoBeetles"],
-        [1, "Collect", "Pineapple"],
-        [2, "Collect", "Dandelion"]
+        [1, "Kill", "Ladybugs"],
+        [2, "Kill", "RhinoBeetles"],
+        [3, "Collect", "Pineapple"],
+        [4, "Collect", "Dandelion"],
     ],
     "Candied Beetles": [
-        [3, "Kill", "RhinoBeetles"],
-        [1, "Collect", "Strawberry"],
-        [2, "Collect", "Blue Flower"]
+        [1, "Kill", "RhinoBeetles"],
+        [2, "Collect", "Strawberry"],
+        [3, "Collect", "Blue Flower"],
     ],
     "Exotic Salad": [
         [1, "Collect", "Cactus"],
         [2, "Collect", "Rose"],
         [3, "Collect", "Blue Flower"],
-        [4, "Collect", "Clover"]
+        [4, "Collect", "Clover"],
     ],
     "Extreme Stir-Fry": [
-        [6, "Kill", "Werewolf"],
-        [5, "Kill", "Scorpions"],
-        [4, "Kill", "Spider"],
-        [1, "Collect", "Cactus"],
-        [2, "Collect", "Bamboo"],
-        [3, "Collect", "Dandelion"]
+        [1, "Kill", "Werewolf"],
+        [2, "Kill", "Scorpions"],
+        [3, "Kill", "Spider"],
+        [4, "Collect", "Cactus"],
+        [5, "Collect", "Bamboo"],
+        [6, "Collect", "Dandelion"],
     ],
     "High Protein": [
-        [4, "Kill", "Spider"],
-        [3, "Kill", "Scorpions"],
-        [2, "Kill", "Mantis"],
-        [1, "Collect", "Sunflower"]
+        [1, "Kill", "Spider"],
+        [2, "Kill", "Scorpions"],
+        [3, "Kill", "Mantis"],
+        [4, "Collect", "Sunflower"],
     ],
     "Ladybug Poppers": [
         [2, "Kill", "Ladybugs"],
-        [1, "Collect", "Blue Flower"]
+        [1, "Collect", "Blue Flower"],
     ],
     "Mantis Meatballs": [
         [2, "Kill", "Mantis"],
-        [1, "Collect", "Pine Tree"]
+        [1, "Collect", "Pine Tree"],
     ],
     "Prickly Pears": [
         [1, "Collect", "Cactus"]
@@ -1179,45 +1179,45 @@ PolarBear = {
     "Pumpkin Pie": [
         [3, "Kill", "Mantis"],
         [1, "Collect", "Pumpkin"],
-        [2, "Collect", "Sunflower"]
+        [2, "Collect", "Sunflower"],
     ],
     "Scorpion Salad": [
         [2, "Kill", "Scorpions"],
-        [1, "Collect", "Rose"]
+        [1, "Collect", "Rose"],
     ],
     "Spiced Kebab": [
         [3, "Kill", "Werewolf"],
         [1, "Collect", "Clover"],
-        [2, "Collect", "Bamboo"]
+        [2, "Collect", "Bamboo"],
     ],
     "Spider Pot-Pie": [
         [2, "Kill", "Spider"],
-        [1, "Collect", "Mushroom"]
+        [1, "Collect", "Mushroom"],
     ],
     "Spooky Stew": [
         [4, "Kill", "Werewolf"],
         [3, "Kill", "Spider"],
         [1, "Collect", "Spider"],
-        [2, "Collect", "Mushroom"]
+        [2, "Collect", "Mushroom"],
     ],
     "Strawberry Skewers": [
         [3, "Kill", "Scorpions"],
         [1, "Collect", "Strawberry"],
-        [2, "Collect", "Bamboo"]
+        [2, "Collect", "Bamboo"],
     ],
     "Teriyaki Jerky": [
         [3, "Kill", "Werewolf"],
         [1, "Collect", "Pineapple"],
-        [2, "Collect", "Spider"]
+        [2, "Collect", "Spider"],
     ],
     "Thick Smoothie": [
         [1, "Collect", "Strawberry"],
-        [2, "Collect", "Pumpkin"]
+        [2, "Collect", "Pumpkin"],
     ],
     "Trail Mix": [
         [1, "Collect", "Sunflower"],
-        [2, "Collect", "Pineapple"]
-    ]
+        [2, "Collect", "Pineapple"],
+    ],
 }
 
 BlackBear = { # Story quests
@@ -1239,7 +1239,7 @@ BlackBear = { # Story quests
     "Variety Fetcher": [
         [1, "Collect", "Red"],
         [2, "Collect", "Blue"],
-        [3, "Collect", "White"]
+        [3, "Collect", "White"],
     ],
     "Bamboo Boogie": [
         [1, "Collect", "Bamboo"]
@@ -1254,7 +1254,7 @@ BlackBear = { # Story quests
         [1, "Collect", "Sunflower"],
         [2, "Collect", "Dandelion"],
         [3, "Collect", "Mushroom"],
-        [4, "Collect", "Blue Flower"]
+        [4, "Collect", "Blue Flower"],
     ],
     "White Pollen Wrangler": [
         [1, "Collect", "White"]
@@ -1268,11 +1268,11 @@ BlackBear = { # Story quests
     "Weed Wacker": [
         [1, "Collect", "Strawberry"],
         [2, "Collect", "Bamboo"],
-        [3, "Collect", "Clover"]
+        [3, "Collect", "Clover"],
     ],
     "Red + Blue = Gold": [
         [1, "Collect", "Red"],
-        [2, "Collect", "Blue"]
+        [2, "Collect", "Blue"],
     ],
     "Colorless Collection" : [
         [1, "Collect", "White"]
@@ -1300,20 +1300,20 @@ BlackBear = { # Story quests
     ],
     "Blue Mushrooms": [
         [1, "Collect", "Blue"],
-        [2, "Collect", "Mushroom"]
+        [2, "Collect", "Mushroom"],
     ],
     "Cobweb Sweeper 2": [
         [1, "Collect", "Spider"],
     ],
     "Rojo-A-Go-Go": [
         [1, "Collect", "Red"],
-        [2, "Collect", "Cactus"]
+        [2, "Collect", "Cactus"],
     ],
     "Pumpkin Plower": [
         [1, "Collect", "Pumpkin"],
     ],
     "Pollen Fetcher 4": [
-        [1, "Collect", "Pollen"]
+        [1, "Collect", "Pollen"],
     ],
     "Bouncing Around Biomes": [
         [1, "Collect", "Pine tree"],
@@ -1321,10 +1321,10 @@ BlackBear = { # Story quests
     ],
     "Blue Pineapples": [
         [1, "Collect", "Blue"],
-        [2, "Collect", "Pineapple"]
+        [2, "Collect", "Pineapple"],
     ],
     "Rose Request": [
-        [1, "Collect", "Rose"]
+        [1, "Collect", "Rose"],
     ],
     "Search For The White Clover": [
         [1, "Collect", "White"],
@@ -1333,19 +1333,19 @@ BlackBear = { # Story quests
         [1, "Collect", "Sunflower"],
         [2, "Collect", "Dandelion"],
         [3, "Collect", "Mushroom"],
-        [4, "Collect", "Blue Flower"]
+        [4, "Collect", "Blue Flower"],
     ],
     "Collecting Cliffside": [
         [1, "Collect", "Strawberry"],
         [2, "Collect", "Spider"],
-        [3, "Collect", "Bamboo"]
+        [3, "Collect", "Bamboo"],
     ],
     "Mountain Meandering": [
         [1, "Collect", "Rose"],
         [2, "Collect", "Pine tree"],
         [3, "Collect", "Pumpkin"],
         [4, "Collect", "Cactus"],
-        [5, "Collect", "Pineapple"]
+        [5, "Collect", "Pineapple"],
     ],
     "Quest Of Legends": [
         [1, "Collect", "White"],
@@ -1371,7 +1371,7 @@ BlackBear = { # Story quests
         [1, "Collect", "White"],
         [2, "Collect", "Pineapple"],
         [3, "Collect", "Spider"],
-        [4, "Collect", "Dandelion"]
+        [4, "Collect", "Dandelion"],
     ],
     "Solo On The Stump": [
         [1, "Collect", "Stump"],
@@ -1380,7 +1380,7 @@ BlackBear = { # Story quests
         [1, "Collect", "Red"],
         [2, "Collect", "Blue"],
         [3, "Collect", "Pine Tree"],
-        [4, "Collect", "Mushroom"]
+        [4, "Collect", "Mushroom"],
     ],
     "Pumpkins, Please!": [
         [1, "Collect", "Pumpkin"],
@@ -1392,14 +1392,14 @@ BlackBear = { # Story quests
         [4, "Collect", "Pineapple"],
         [5, "Collect", "Cactus"],
         [6, "Collect", "Rose"],
-        [7, "Collect", "Mountain Top"]
+        [7, "Collect", "Mountain Top"],
     ],
     "Pollen Fetcher 5": [
-        [1, "Collect", "Pollen"]
+        [1, "Collect", "Any"],
     ],
     "White Clover Redux": [
         [1, "Collect", "White"],
-        [2, "Collect", "Clover"]
+        [2, "Collect", "Clover"],
     ],
     "Strawberry Field Forever"  : [
         [1, "Collect", "Strawberry"],
@@ -1407,7 +1407,7 @@ BlackBear = { # Story quests
     "Tasting The Sky": [
         [1, "Collect", "Blue"],
         [2, "Collect", "Mountain Top"],
-        [3, "Collect", "Sunflower"]
+        [3, "Collect", "Sunflower"],
     ],
     "Whispy and Crispy": [
         [1, "Collect", "Cactus"],
@@ -1422,74 +1422,218 @@ BlackBear = { # Story quests
         [2, "Collect", "Clover"],
         [3, "Collect", "Stump"],
     ],
-    "Just White": [
-        [1, "Collect", "White"]
+    "One Stop On The Tip Top": [
+        [1, "Collect", "Mountain Top"],
+    ],
+    "Blue Mushrooms 2": [
+        [1, "Collect", "Blue Flower"],
+        [2, "Collect", "Mushroom"],
+    ],
+    "Pretty Pumpkins": [
+        [1, "Collect", "Pumpkin"],
+        [2, "Collect", "Rose"],
+    ],
+    "Black Bear, Why?": [
+        [1, "Collect", "Red"],
+        [2, "collect", "Blue"],
+        [3, "collect", "Cactus"],
+        [3, "collect", "Spider"],
+        [4, "collect", "Clover"],
+    ],
+    "Bee A Star": [
+        [1, "Collect", "White"],
+        [2, "Collect", "Moumain Top"],
+        [3, "Collect", "Pine Tree"],
+        [4, "Collect", "Rose"],
+        [5, "Collect", "Stump"],
+        [6, "Collect", "Pineapple"],
+        [7, "Collect", "Sunflower"],
+    ],
+    "Bamboo Boogie 2: Bamboo Boogaloo": [
+        [1, "Collect", "Bamboo"],
+    ],
+    "Rocky Red Mountain": [
+        [1, "Collect", "Red"],
+        [2, "Collect", "Mountain Top"],
+        [3, "Collect", "Dandelion"],
+    ],
+    "Can't Without Ants": [
+        [1, "collect", "Any"],
+        [2, "Kill", "Ants"],#Not sure if this is correct    o_o
+    ],
+    "The 15 Bee Zone": [
+        [1, "Collect", "Cactus"],
+        [2, "Collect", "Pumpkin"],
+        [3, "Collect", "Pine Tree"],
+        [4, "Collect", "Rose"],
+    ],
+    "Bubble Trouble": [
+        [1, "Collect", "Blue"],
+        [2, "Collect", "Stump"],
+        [3, "Collect", "Blue Flower"],
+    ],
+    "Sweet And Sour": [
+        [1, "Collect", "Pineapple"],
+        [2, "Collect", "Mushroom"],
+    ],
+    "Rare Red Clover": [
+        [1, "Collect", "Red"],
+        [2, "Collect", "Clover"],
+    ],
+    "Low Tier Treck": [
+        [1, "Collect", "Stawberry"],
+        [2, "Collect", "Spider"],
+        [3, "Collect", "Bamboo"],
+        [4, "Collect", "Clover"],
+        [5, "Collect", "Blue Flower"],
+        [6, "Collect", "Mushroom"],
+        [7, "Collect", "Dandelion"],
+        [8, "Collect", "Sunflower"],
+    ],
+    "Okey-Pokey": [
+        [1, "Collect", "White"],
+        [2, "Collect", "Rose"],
+        [3, "Collect", "Cactus"],
+    ],
+    "Pollen Fetcher 6": [
+        [1, "Collect", "Any"],
+    ],
+    "Capsaicin Collector": [
+        [1, "Collect", "Pepper"],
+        [2, "Collect", "Spider"],
+        [3, "Collect", "Damdelion"],
+    ],
+    "Mountain Mix": [
+        [1, "Collect", "Red"],
+        [2, "Collect", "Blue"],
+        [3, "Collect", "Mountain Top"],
+    ],
+    "You Blue It": [
+        [1, "Collect", "Blue"],
+        [2, "Collect", "Blue Flower"],
+        [3, "Kill", "Ants"],#Not sure if this is correct    o_o
+    ],
+    "Variety Fetcher 2": [
+        [1, "Collect", "Pepper"],
+        [2, "Collect", "Pineapple"],
+        [3, "Collect", "Strawberry"],
+        [4, "Collect", "Pine Tree"],
+    ],
+    "Getting Stumped": [
+        [1, "Collect", "Any"],
+        [2, "Collect", "Stump"],
+    ],
+    "Pollen Fetcher 7": [
+        [1, "Collect", "Pepper"],
+        [2, "Collect", "Bamboo"],
+        [3, "Collect", "Clover"],
+    ],
+    "All-Whitey Then": [
+        [1, "Collect", "White"],
+        [2, "Collect", "Spider"],
+        [3, "Collect", "Dandelion"],
+        [7, "Collect", "Cactus"],
+    ],
+    "Red Delicacy": [
+        [1, "Collect", "Red"],
+        [2, "Collect", "Strawberry"],
+        [3, "Collect", "Pumpkin"],
+        [4, "Collect", "Coconut"],
+    ],
+    "Boss Battles": [
+        [1, "Collect", "Coconut"],
+        [2, "Collect", "Stump"],
+        [3, "Kill", "Ants"], #Not sure if this is correct    o_o
+    ],
+    "Myth In The Making": [
+        [1, "Collect", "Red"],
+        [2, "Collect", "Blue"],
+        [3, "Collect", "Sunflower"],
+        [4, "Collect", "Dandelion"],
+        [5, "Collect", "Mushroom"],
+        [6, "Collect", "Blue Flower"],
+        [7, "Collect", "Clover"],
+        [8, "Collect", "Strawberry"],
+        [9, "Collect", "Spider"],
+        [10, "Collect", "Bamboo"],
+        [11, "Collect", "Pineapple"],
+        [12, "Collect", "Stump"],
+        [13, "Collect", "Cactus"],
+        [14, "Collect", "Pumpkin"],
+        [15, "Collect", "Pine Tree"],
+        [16, "Collect", "Rose"],
+        [17, "Collect", "Mountain Top"],
+        [18, "Collect", "Pepper"],
+        [19, "Collect", "Coconut"],
+    ],
+    "Just White": [ ##rep quests
+        [1, "Collect", "White"],
     ],
     "Just Red": [
-        [1, "Collect", "Red"]
+        [1, "Collect", "Red"],
     ],
     "Just Blue": [
-        [1, "Collect", "Blue"]
+        [1, "Collect", "Blue"],
     ],
     "A Bit Of Both": [
         [1, "Collect", "Red"],
-        [2, "Collect", "Blue"]
+        [2, "Collect", "Blue"],
     ],
     "Any Pollen": [
-        [1, "Collect", "Any"]
+        [1, "Collect", "Any"],
     ],
     "The Whole Lot": [
         [1, "Collect", "Red"],
         [2, "Collect", "Blue"],
-        [3, "Collect", "White"]
+        [3, "Collect", "White"],
     ],
     "Between The Bamboo": [
-        [2, "Collect", "Bamboo"],
-        [1, "Collect", "Blue"]
+        [1, "Collect", "Bamboo"],
+        [2, "Collect", "Blue"],
     ],
     "Play In The Pumpkins": [
-        [2, "Collect", "Pumpkin"],
-        [1, "Collect", "White"]
+        [1, "Collect", "Pumpkin"],
+        [2, "Collect", "White"],
     ],
     "Plundering Pineapples": [
-        [2, "Collect", "Pineapple"],
-        [1, "Collect", "Any"]
+        [1, "Collect", "Pineapple"],
+        [2, "Collect", "Any"],
     ],
     "Stroll In The Strawberries": [
-        [2, "Collect", "Strawberry"],
-        [1, "Collect", "Red"]
+        [1, "Collect", "Strawberry"],
+        [2, "Collect", "Red"],
     ],
     "Mid-Level Mission": [
         [1, "Collect", "Spider"],
         [2, "Collect", "Strawberry"],
-        [3, "Collect", "Bamboo"]
+        [3, "Collect", "Bamboo"],
     ],
     "Blue Flower Bliss": [
-        [1, "Collect", "Blue Flower"]
+        [1, "Collect", "Blue Flower"],
     ],
     "Delve Into Dandelions": [
-        [1, "Collect", "Dandelion"]
+        [1, "Collect", "Dandelion"],
     ],
     "Fun In The Sunflowers": [
-        [1, "Collect", "Sunflower"]
+        [1, "Collect", "Sunflower"],
     ],
     "Mission For Mushrooms": [
-        [1, "Collect", "Mushroom"]
+        [1, "Collect", "Mushroom"],
     ],
     "Leisurely Lowlands": [
         [1, "Collect", "Sunflower"],
         [2, "Collect", "Dandelion"],
         [3, "Collect", "Mushroom"],
-        [4, "Collect", "Blue Flower"]
+        [4, "Collect", "Blue Flower"],
     ],
     "Triple Trek": [
         [1, "Collect", "Mountain Top"],
         [2, "Collect", "Pepper"],
-        [3, "Collect", "Coconut"]
+        [3, "Collect", "Coconut"],
     ],
     "Pepper Patrol": [
-        [1, "Collect", "Pepper"]
-    ]
+        [1, "Collect", "Pepper"],
+    ],
 }
 
 BuckoBee = {
@@ -1503,7 +1647,7 @@ BuckoBee = {
         [4, "Get", "Ant"],
         [3, "Get", "Ant"],
         [2, "Kill", "RhinoBeetles"],
-        [1, "Collect", "Any"]
+        [1, "Collect", "Any"],
     ],
     "Booster": [
         [2, "Get", "BlueBoost"],
@@ -1512,12 +1656,12 @@ BuckoBee = {
     "Clean-Up": [
         [1, "Collect", "Blue Flower"],
         [2, "Collect", "Bamboo"],
-        [3, "Collect", "Pine Tree"]
+        [3, "Collect", "Pine Tree"],
     ],
     "Extraction": [
         [1, "Collect", "Clover"],
         [2, "Collect", "Cactus"],
-        [3, "Collect", "Pumpkin"]
+        [3, "Collect", "Pumpkin"],
     ],
     "Flowers": [
         [1, "Collect", "Blue Flower"]
@@ -1528,14 +1672,14 @@ BuckoBee = {
     "Medley": [
         [2, "Collect", "Bamboo"],
         [3, "Collect", "Pine Tree"],
-        [1, "Collect", "Any"]
+        [1, "Collect", "Any"],
     ],
     "Picnic": [
         [5, "Get", "Ant"],
         [4, "Get", "Ant"],
         [3, "Feed", "Blueberry"],
         [1, "Collect", "Blue Flower"],
-        [2, "Collect", "Blue"]
+        [2, "Collect", "Blue"],
     ],
     "Pine Trees": [
         [1, "Collect", "Pine Tree"]
@@ -1546,24 +1690,24 @@ BuckoBee = {
     "Scavenge": [
         [1, "Collect", "Blue"],
         [3, "Collect", "Blue"],
-        [2, "Collect", "Any"]
+        [2, "Collect", "Any"],
     ],
     "Skirmish": [
-        [2, "Kill", "RhinoBeetles"],
-        [1, "Collect", "Blue Flower"]
+        [1, "Kill", "RhinoBeetles"],
+        [2, "Collect", "Blue Flower"],
     ],
     "Tango": [
-        [3, "Kill", "Mantis"],
-        [1, "Collect", "Blue"],
-        [2, "Collect", "Any"]
+        [1, "Kill", "Mantis"],
+        [2, "Collect", "Blue"],
+        [3, "Collect", "Any"],
     ],
     "Tour": [
-        [5, "Kill", "Mantis"],
-        [4, "Kill", "RhinoBeetles"],
-        [1, "Collect", "Blue Flower"],
-        [2, "Collect", "Bamboo"],
-        [3, "Collect", "Pine Tree"]
-    ]
+        [1, "Kill", "Mantis"],
+        [2, "Kill", "RhinoBeetles"],
+        [3, "Collect", "Blue Flower"],
+        [4, "Collect", "Bamboo"],
+        [5, "Collect", "Pine Tree"],
+    ],
 }
 
 RileyBee = {
@@ -1635,7 +1779,7 @@ RileyBee = {
         [1, "Collect", "Mushroom"],
         [2, "Collect", "Strawberry"],
         [3, "Collect", "Rose"]
-    ]
+    ],
 }
 
 # Field Booster Data
