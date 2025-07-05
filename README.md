@@ -19,5 +19,10 @@ Updates here will include
 - Ai hive claim (can claim hive when joined without walking through hives)
 - Ai crafting (use to get gear, can say make super smooth,y it will get all stuff needed to make it, then make it)
 - AI boosting (can use if you would like it to use boosts and stay in field for 45 mins at a time it will use wind shrine and fields boosters to get desigerd effect)
+- Collect Treasure Tokens around the map
+- Auto coconut combo/coconut farm
+- Auto Meteor Shower
+- Auto collect Beesmas Gifts (Lazy Shits)
+- Auto sticker sprout hunting
 # All code is open to be read and revised if you find any errors, join my discord and let me know https://discord.gg/dHUM2ejQGY
 Not yet ready for use
